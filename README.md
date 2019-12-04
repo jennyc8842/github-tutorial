@@ -34,7 +34,7 @@ The difference between both of them is that **_Git_** is a tool to manage your c
 9. Copy (CTRL + C) the 2 codes (should say **git add remote (link to your repository in SSH format)** and **git push -u origin master**) _We will paste this later on!_
 10. Go back to your IDE tab
 11. Enter in **mkdir (directory name)** _(Makes  a new directory)_
-12. Next, type **cd <directory name>** _(Changes to the directory you specify)_
+12. Next, type **cd (directory name)** _(Changes to the directory you specify)_
 13. After that, type **git init** _(Makes a git repository)_
 14. Then, type **touch README.md** _(Creates a file called 'README.md')_
 15. Next, type **c9 README.md** _(Opens up the README file)_
