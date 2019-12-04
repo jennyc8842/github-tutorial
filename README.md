@@ -1,33 +1,51 @@
 # GitHub Tutorial
 
-_by <Jenny Cheng>_
+_by Jenny Cheng_
 
 ---
 ## Git vs. GitHub
-**_Git_** is a system of version control primarily used by programmers and others who write code.
-  **_Github_** is a website that allows you to upload your Git repositories online.
+**_Git_** is a system of version control mostly used by people who program and code.
+**_Github_** is a website that allows you to send your Git repositories on the internet.
+The difference between both of them is that **Git** is a tool to manage your code history while **GitHub** is a hosting service for Git repositories.
 
 
 ---
 ## Initial Setup
-To make a github account, [first go to this link](www.github.com).
-  Click sign up on the upper right corner and fill in the contents you need.
-    [IDE](ide.cs50.io) stands for Integrated Development Environment and it is where you'll be doing your work and is main code editor for the rest of SEP.
+To make a github account, [first go to this link](https://github.com/).
+  Click sign up on the upper right corner.
+    Fill in the contents you need.
+      If you're a student of HSTAT, you enter in your hstat gmail **except for the @hstat.org** (ex: jennyc8842).
+        If you're _NOT_ a student of HSTAT, you can make up the username.
+          After that, you make a password that you are able to remember.
+            Fill any further details and click 'Create Account'
+              [IDE](ide.cs50.io) stands for Integrated Development Environment and it is where you'll be doing your work and is main code editor for majority of programmers.
 ---
 ## Repository Setup
-1. Enter **mkdir <directory name>** (This is so we can make  a new directory to practice in)
-2. Enter **cd <directory name>** (To make our new directory our working directory.)
-3. Enter **git init** (Makes our current, empty directory into a fresh Git repository.)
-4. Enter **touch README.md** (Creates a new README file (more on this later) We'll need README files often.)
-5. Enter **c9 README.md** (Opens the new README file )
-6. Type things into the README file
-7. Enter **git add README.md** (Adds our new file to the staging area.)
-8. Enter **git commit -m "<add message>"** (Makes our first commit using the README file, and writes a message indicating that this is what we did.)
-
+1. Go to your [IDE](ide.cs50.io)
+2. Sign into your IDE account
+3. On another tab of your browser, go to [Github](https://github.com/)
+4. Sign into your github account
+5. On the github page, go click the + icon on the right corner
+6. Then, click _New Repository_
+7. Enter in the name of your repository
+8. Click _Create repository_
+9. Copy the 2 codes (should say **git add remote (link to your repository in SSH format)** and **git push -u origin master**) **We will paste this later on!**
+10. Enter **mkdir (directory name)** _(Makes  a new directory)_
+11. Enter **cd <directory name>** _(Changes to the directory you specify)_
+12. Enter **git init** _(Makes a git repository)_
+13. Enter **touch README.md** _(Creates a file called 'README.md')_
+14. Enter **c9 README.md** _(Opens up the README file)_
+15. Type things into the README file.
+16. Enter **git add README.md** _(Adds the file, README.md to the staging area)_
+17. Enter **git commit -m "<add message>"** _(Makes a commit that stores the changes, and a message along with it to know what you did)_
+18. Paste the 2 codes you copied earlier.
+19. Enter in your username of github.
+20. Enter in your password of github.
+21. You're done!
 
 ---
 ## Workflow & Commands
-When you save your file by doing _CTRL + S_, it is saving the changes you made into the file.
-  When you _git add (filename)_, it adds the file into the repository.
-    When you _git commit_, you are permanently saving the changes.
-      When you _git push_, you have saved the changes to the repository and now it's on github.
+When you save your file by doing _CTRL + S_, it is saving the changes you made into the file. Do this **every** time you made a change to the file!
+  When you _git add (filename)_, it adds the file to the staging area. Use this when you made a change in the README file.
+    When you _git commit_, you are adding the file and changes you made to your repository. Use this after when you _git add (filename)_!
+      When you _git push_, you are transfering any changes from local repo up to the remote repo. Use this when you save, add and committed.
