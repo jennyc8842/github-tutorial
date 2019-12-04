@@ -6,7 +6,9 @@ _by Jenny Cheng_
 ## Git vs. GitHub
 
 **_Git_** is a system of version control mostly used by people who program and code.
+
 **_Github_** is a website that allows you to send your Git repositories on the internet.
+
 The difference between both of them is that **_Git_** is a tool to manage your code history while **_GitHub_** is a hosting service for Git repositories.
 
 
