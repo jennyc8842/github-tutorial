@@ -48,7 +48,7 @@ The difference between both of them is that **_Git_** is a tool to manage your c
 
 ---
 ## Workflow & Commands
-When you save your file by doing _**CTRL + S_**, it is saving the changes you made into the file. Do this **every** time you made a change to the file!
+When you save your file by doing _**CTRL + S**_, it is saving the changes you made into the file. Do this **every** time you made a change to the file!
   When you _**git add (filename)**_, it adds the file to the staging area. Use this when you made a change in the README file.
     When you _**git commit**_, you are adding the file and changes you made to your repository. Use this after when you _git add (filename)_!
       When you **_git push_**, you are transfering any changes from local repo up to the remote repo. Use this when you save, add and committed.
