@@ -19,11 +19,11 @@ The difference between both of them is that **_Git_** is a tool to manage your c
 * If you're _NOT_ a student of HSTAT, you can make up the username.
 * After that, you make a password that you are able to remember.
 * Fill any further details and click 'Create Account'
-* [IDE](ide.cs50.io) stands for Integrated Development Environment and it is where you'll be doing your work and is main code editor for majority of programmers.
+* [IDE](https://ide.cs50.io/) stands for Integrated Development Environment and it is where you'll be doing your work and is main code editor for majority of programmers.
 ---
 
 ## Repository Setup
-1. Go to your [IDE](ide.cs50.io)
+1. Go to your [IDE](https://ide.cs50.io/)
 2. Sign into your IDE account
 3. On another tab of your browser, go to [Github](https://github.com/)
 4. Sign into your github account
